@@ -149,6 +149,36 @@ var quizes = [
 
     ],
     
+    [
+        // Quiz6 Marsh Badge
+        {
+            title: "Abra",
+            choices: ["Mr. Mime", "Abra", "Kadabara", "Haunter"],
+            answer: "Abra"
+        },
+        {
+            title: "Mr. Mime",
+            choices: ["Gastly", "Abra", "Mr. Mime", "Alakazam"],
+            answer: "Mr. Mime"
+        },
+        {
+            title: "Kadabra",
+            choices: ["Mr. Mime", "Abra", "Haunter", "Kadabra"],
+            answer: "Kadabra"
+        },
+        {
+            title: "Slowbro",
+            choices: ["Slowbro", "Gastly", "Kadabra", "Slowpoke"],
+            answer: "Slowbro"
+        },
+        {
+            title: "Alakazam",
+            choices: ["Slowbro", "Haunter", "Alakazam", "Kadabra"],
+            answer: "Alakazam"
+        },
+
+    ],
+    
     
 
 ]
