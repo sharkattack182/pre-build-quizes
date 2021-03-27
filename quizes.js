@@ -179,6 +179,35 @@ var quizes = [
 
     ],
     
+    [
+        // Quiz7 Volcano Badge
+        {
+            title: "Growlithe",
+            choices: ["Ponyata", "Growlithe", "Rapidash", "Arcanine"],
+            answer: "Growlithe"
+        },
+        {
+            title: "Vulpix",
+            choices: ["Vulpix", "Growlithe", "Ponyata", "Ninetales"],
+            answer: "Vulpix"
+        },
+        {
+            title: "Rapidash",
+            choices: ["Arcanine", "Vulpix", "Rapidash", "Growlithe"],
+            answer: "Rapidash"
+        },
+        {
+            title: "Ponyata",
+            choices: ["Ponyata", "Ninetales", "Kadabra", "Vulpix"],
+            answer: "Ponyata"
+        },
+        {
+            title: "Arcanine",
+            choices: ["Growlithe", "Vulpix", "Arcanine", "Ninetales"],
+            answer: "Arcanine"
+        },
+
+    ],
     
 
 ]
