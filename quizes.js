@@ -1,34 +1,6 @@
 var quizes = [
 
-    [
-        // Quiz1 Boulder Badge
-        {
-            title: "Digglet",
-            choices: ["Geodude", "Digglet", "Hypno", "Onix"],
-            answer: "Digglet"
-        },
-        {
-            title: "Sandshrew",
-            choices: ["Cubone", "Digglet", "Sandshrew", "Geodude"],
-            answer: "Sandshrew"
-        },
-        {
-            title: "Geodude",
-            choices: ["Digglet", "Slowbro", "Sandshrew", "Geodude"],
-            answer: "Geodude"
-        },
-        {
-            title: "Onix",
-            choices: ["Sandshrew", "Onix", "Geodude", "Digglet"],
-            answer: "Onix"
-        },
-        {
-            title: "Cubone",
-            choices: ["Cubone", "Digglet", "Sandshrew", "Geodude"],
-            answer: "Cubone"
-        },
 
-    ],
     [
         // Quiz2 Cascade Badge
         {
@@ -251,3 +223,47 @@ var quizes = [
 
 
 
+var badges = [
+    {
+    name: "Boulder Badge",
+    quiz: [
+        // Quiz1 Boulder Badge
+        {
+            title: "Digglet",
+            choices: ["Geodude", "Digglet", "Hypno", "Onix"],
+            answer: "Digglet"
+        },
+        {
+            title: "Sandshrew",
+            choices: ["Cubone", "Digglet", "Sandshrew", "Geodude"],
+            answer: "Sandshrew"
+        },
+        {
+            title: "Geodude",
+            choices: ["Digglet", "Slowbro", "Sandshrew", "Geodude"],
+            answer: "Geodude"
+        },
+        {
+            title: "Onix",
+            choices: ["Sandshrew", "Onix", "Geodude", "Digglet"],
+            answer: "Onix"
+        },
+        {
+            title: "Cubone",
+            choices: ["Cubone", "Digglet", "Sandshrew", "Geodude"],
+            answer: "Cubone"
+        },
+
+    ],
+    image_file: "example.jpg",
+    points: 300,
+    message: "Congratulations on earning your Boulder Badge! You have also earned 300 xP to help in your quest to become a pokemon master!",
+    gym: "Pewter City",
+    gym_leader: "Brock",
+    passcode: "PewterCity001"
+
+},
+
+
+
+]
