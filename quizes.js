@@ -58,6 +58,36 @@ var quizes = [
         },
 
     ],
+
+    [
+        // Quiz3 ThunderBadge
+        {
+            title: "Pikachu",
+            choices: ["Pikachu", "Charmander", "Bulbasaur", "Squirtle"],
+            answer: "Pikachu"
+        },
+        {
+            title: "Voltorb",
+            choices: ["Electrode", "Gastly", "Voltorb", "Gengar"],
+            answer: "Voltorb"
+        },
+        {
+            title: "Magnamite",
+            choices: ["Magnamite", "Abra", "Raichu", "Ekans"],
+            answer: "Guarydos"
+        },
+        {
+            title: "Electrode",
+            choices: ["Psyduck", "Vaporeon", "Slowpoke", "Electrode"],
+            answer: "Electrode"
+        },
+        {
+            title: "Raichu",
+            choices: ["Pikachu", "Raichu", "Electrabuzz", "Golbat"],
+            answer: "Cubone"
+        },
+
+    ],
     
 
 ]
