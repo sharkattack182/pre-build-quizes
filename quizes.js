@@ -1,110 +1,3 @@
-var quizes = [
-
-
-
-
-    
-    [
-        // Quiz6 Marsh Badge
-        {
-            title: "Abra",
-            choices: ["Mr. Mime", "Abra", "Kadabara", "Haunter"],
-            answer: "Abra"
-        },
-        {
-            title: "Mr. Mime",
-            choices: ["Gastly", "Abra", "Mr. Mime", "Alakazam"],
-            answer: "Mr. Mime"
-        },
-        {
-            title: "Kadabra",
-            choices: ["Mr. Mime", "Abra", "Haunter", "Kadabra"],
-            answer: "Kadabra"
-        },
-        {
-            title: "Slowbro",
-            choices: ["Slowbro", "Gastly", "Kadabra", "Slowpoke"],
-            answer: "Slowbro"
-        },
-        {
-            title: "Alakazam",
-            choices: ["Slowbro", "Haunter", "Alakazam", "Kadabra"],
-            answer: "Alakazam"
-        },
-
-    ],
-    
-    [
-        // Quiz7 Volcano Badge
-        {
-            title: "Growlithe",
-            choices: ["Ponyata", "Growlithe", "Rapidash", "Arcanine"],
-            answer: "Growlithe"
-        },
-        {
-            title: "Vulpix",
-            choices: ["Vulpix", "Growlithe", "Ponyata", "Ninetales"],
-            answer: "Vulpix"
-        },
-        {
-            title: "Rapidash",
-            choices: ["Arcanine", "Vulpix", "Rapidash", "Growlithe"],
-            answer: "Rapidash"
-        },
-        {
-            title: "Ponyata",
-            choices: ["Ponyata", "Ninetales", "Kadabra", "Vulpix"],
-            answer: "Ponyata"
-        },
-        {
-            title: "Arcanine",
-            choices: ["Growlithe", "Vulpix", "Arcanine", "Ninetales"],
-            answer: "Arcanine"
-        },
-
-    ],
-
-
-    [
-        // Quiz8 Earth Badge
-        {
-            title: "Rhyhorn",
-            choices: ["Rydon", "Nidoqueen", "Nidoking", "Rhyhorn"],
-            answer: "Rhyhorn"
-        },
-        {
-            title: "Dugtrio",
-            choices: ["Dugtrio", "Rhyhorn", "Nidoking", "Rydon"],
-            answer: "Dugtrio"
-        },
-        {
-            title: "Nidoqueen",
-            choices: ["Rydon", "Nidoqueen", "Dugtrio", "Nidoking"],
-            answer: "Nidoqueen"
-        },
-        {
-            title: "Nidoking",
-            choices: ["Nidoking", "Dugtrio", "Nidoqueen", "Rydon"],
-            answer: "Nidoking"
-        },
-        {
-            title: "Rydon",
-            choices: ["Rhyhorn", "Dugtrio", "Rydon", "Nidoqueen"],
-            answer: "Rydon"
-        },
-
-    ],
-    
-    
-
-]
-
-
-
-
-
-
-
 
 var badges = [
     {
@@ -306,6 +199,128 @@ var badges = [
     passed: false
 },
 
+
+{
+    name: "Marsh Badge",
+    quiz: [
+        {
+            title: "Abra",
+            choices: ["Mr. Mime", "Abra", "Kadabara", "Haunter"],
+            answer: "Abra"
+        },
+        {
+            title: "Mr. Mime",
+            choices: ["Gastly", "Abra", "Mr. Mime", "Alakazam"],
+            answer: "Mr. Mime"
+        },
+        {
+            title: "Kadabra",
+            choices: ["Mr. Mime", "Abra", "Haunter", "Kadabra"],
+            answer: "Kadabra"
+        },
+        {
+            title: "Slowbro",
+            choices: ["Slowbro", "Gastly", "Kadabra", "Slowpoke"],
+            answer: "Slowbro"
+        },
+        {
+            title: "Alakazam",
+            choices: ["Slowbro", "Haunter", "Alakazam", "Kadabra"],
+            answer: "Alakazam"
+        },
+
+    ],
+    image_file: "example.jpg",
+    points: 750,
+    message: "Congratulations on earning your Marsh Badge! You have also earned 750 xP to help in your quest to become a pokemon master!",
+    gym: "Saffron City",
+    gym_leader: "Sabrina",
+    passcode: "SaffronCity006",
+    passed: false
+},
+
+{
+    name: "Volcano Badge",
+    quiz: [
+
+        {
+            title: "Growlithe",
+            choices: ["Ponyata", "Growlithe", "Rapidash", "Arcanine"],
+            answer: "Growlithe"
+        },
+        {
+            title: "Vulpix",
+            choices: ["Vulpix", "Growlithe", "Ponyata", "Ninetales"],
+            answer: "Vulpix"
+        },
+        {
+            title: "Rapidash",
+            choices: ["Arcanine", "Vulpix", "Rapidash", "Growlithe"],
+            answer: "Rapidash"
+        },
+        {
+            title: "Ponyata",
+            choices: ["Ponyata", "Ninetales", "Kadabra", "Vulpix"],
+            answer: "Ponyata"
+        },
+        {
+            title: "Arcanine",
+            choices: ["Growlithe", "Vulpix", "Arcanine", "Ninetales"],
+            answer: "Arcanine"
+        },
+
+    ],
+
+    image_file: "example.jpg",
+    points: 750,
+    message: "Congratulations on earning your Volcano Badge! You have also earned 750 xP to help in your quest to become a pokemon master!",
+    gym: "Cinnbar Island",
+    gym_leader: "Blaine",
+    passcode: "CinnabarIsland007",
+    passed: false
+},
+
+
+{
+    name: "Earth Badge",
+    quiz: [
+        // Quiz8 Earth Badge
+        {
+            title: "Rhyhorn",
+            choices: ["Rydon", "Nidoqueen", "Nidoking", "Rhyhorn"],
+            answer: "Rhyhorn"
+        },
+        {
+            title: "Dugtrio",
+            choices: ["Dugtrio", "Rhyhorn", "Nidoking", "Rydon"],
+            answer: "Dugtrio"
+        },
+        {
+            title: "Nidoqueen",
+            choices: ["Rydon", "Nidoqueen", "Dugtrio", "Nidoking"],
+            answer: "Nidoqueen"
+        },
+        {
+            title: "Nidoking",
+            choices: ["Nidoking", "Dugtrio", "Nidoqueen", "Rydon"],
+            answer: "Nidoking"
+        },
+        {
+            title: "Rydon",
+            choices: ["Rhyhorn", "Dugtrio", "Rydon", "Nidoqueen"],
+            answer: "Rydon"
+        },
+
+    ],
+
+    image_file: "example.jpg",
+    points: 1000,
+    message: "Congratulations on earning your Earth Badge! You have also earned 1000 xP to help in your quest to become a pokemon master!",
+    gym: "Viridian City",
+    gym_leader: "Giovanni",
+    passcode: "ViridianCity008",
+    passed: false
+},
 ]
 
 
