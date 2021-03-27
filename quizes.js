@@ -307,3 +307,13 @@ var badges = [
 },
 
 ]
+
+
+function getGymName(obj) {
+    for (let i = 0; i < obj.length; i++) {
+        const element = obj[i];
+        console.log(element.gym_leader)
+    }
+}
+
+getGymName(badges)
