@@ -88,6 +88,36 @@ var quizes = [
         },
 
     ],
+
+    [
+        // Quiz4 Rainbow Badge
+        {
+            title: "Bellsprout",
+            choices: ["Oddish", "Bellsprout", "Bulbasaur", "Exeggcute"],
+            answer: "Bellsprout"
+        },
+        {
+            title: "Baulbasaur",
+            choices: ["Ivysaur", "Metapod", "Venasaur", "Bulbasaur"],
+            answer: "Bulbasaur"
+        },
+        {
+            title: "Ivysaur",
+            choices: ["Ivysaur", "Metapod", "Venasaur", "Bulbasaur"],
+            answer: "Ivysaur"
+        },
+        {
+            title: "Exeggcute",
+            choices: ["Oddish", "Bellsprout", "Bulbasaur", "Exeggcute"],
+            answer: "Exeggcute"
+        },
+        {
+            title: "Gloom",
+            choices: ["Gloom", "Weepingbell", "Oddish", "Venasaur"],
+            answer: "Gloom"
+        },
+
+    ],
     
 
 ]
@@ -95,11 +125,7 @@ var quizes = [
 
 
 
-// {
-//     title: "Baulbasaur",
-//     choices: ["Ivysaur", "Metapod", "Venasaur", "Bulbasaur"],
-//     answer: "Dobby"
-// },
+
 
 
 
