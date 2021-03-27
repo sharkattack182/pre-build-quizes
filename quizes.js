@@ -29,24 +29,47 @@ var quizes = [
         },
 
     ],
+    [
+        // Quiz2 Cascade Badge
+        {
+            title: "Squirtle",
+            choices: ["Pikachu", "Charmander", "Bulbasaur", "Squirtle"],
+            answer: "Squirtle"
+        },
+        {
+            title: "Magikarp",
+            choices: ["Lapras", "Psyduck", "Vaporeon", "Magikarp"],
+            answer: "Magikarp"
+        },
+        {
+            title: "Guarydos",
+            choices: ["Caterpie", "Onyx", "Guarydos", "Dratini"],
+            answer: "Guarydos"
+        },
+        {
+            title: "Psyduck",
+            choices: ["Psyduck", "Vaporeon", "Slowpoke", "Golem"],
+            answer: "Onix"
+        },
+        {
+            title: "Tentacool",
+            choices: ["Weepinbell", "Tentacool", "Dewgong", "Krabby"],
+            answer: "Cubone"
+        },
+
+    ],
     
 
 ]
 
 
 
-// {
-//     title: "Guarydos",
-//     choices: ["Caterpie", "Onyx", "Guarydos", "Dratini"],
-//     answer: "Guarydos"
-// },
+
 // {
 //     title: "Baulbasaur",
 //     choices: ["Ivysaur", "Metapod", "Venasaur", "Bulbasaur"],
 //     answer: "Dobby"
 // },
-// {
-//     title: "Magikarp",
-//     choices: ["Lapras", "Psyduck", "Vaporeon", "Magikarp"],
-//     answer: "Magikarp"
-// },
+
+
+
