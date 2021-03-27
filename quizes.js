@@ -208,6 +208,38 @@ var quizes = [
         },
 
     ],
+
+
+    [
+        // Quiz8 Earth Badge
+        {
+            title: "Rhyhorn",
+            choices: ["Rydon", "Nidoqueen", "Nidoking", "Rhyhorn"],
+            answer: "Rhyhorn"
+        },
+        {
+            title: "Dugtrio",
+            choices: ["Dugtrio", "Rhyhorn", "Nidoking", "Rydon"],
+            answer: "Dugtrio"
+        },
+        {
+            title: "Nidoqueen",
+            choices: ["Rydon", "Nidoqueen", "Dugtrio", "Nidoking"],
+            answer: "Nidoqueen"
+        },
+        {
+            title: "Nidoking",
+            choices: ["Nidoking", "Dugtrio", "Nidoqueen", "Rydon"],
+            answer: "Nidoking"
+        },
+        {
+            title: "Rydon",
+            choices: ["Rhyhorn", "Dugtrio", "Rydon", "Nidoqueen"],
+            answer: "Rydon"
+        },
+
+    ],
+    
     
 
 ]
