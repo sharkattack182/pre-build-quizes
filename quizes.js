@@ -260,8 +260,8 @@ var badges = [
     message: "Congratulations on earning your Boulder Badge! You have also earned 300 xP to help in your quest to become a pokemon master!",
     gym: "Pewter City",
     gym_leader: "Brock",
-    passcode: "PewterCity001"
-
+    passcode: "PewterCity001",
+    passed: false
 },
 
 
