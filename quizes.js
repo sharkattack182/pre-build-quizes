@@ -1,125 +1,8 @@
 var quizes = [
 
 
-    [
-        // Quiz2 Cascade Badge
-        {
-            title: "Goldeen",
-            choices: ["Goldeen", "Starmie", "Shellder", "Horsea"],
-            answer: "Goldeen"
-        },
-        {
-            title: "Staryu",
-            choices: ["Shellder", "Staryu", "Starmie", "Horsea"],
-            answer: "Staryu"
-        },
-        {
-            title: "Shellder",
-            choices: ["Horsea", "Goldeen", "Shellder", "Staryu"],
-            answer: "Shellder"
-        },
-        {
-            title: "Horsea",
-            choices: ["Staryu", "Starmie", "Horsea", "Goldeen"],
-            answer: "Horsea"
-        },
-        {
-            title: "Starmie",
-            choices: ["Staryu", "Goldeen", "Starmie", "Shellder"],
-            answer: "Starmie"
-        },
 
-    ],
 
-    [
-        // Quiz3 ThunderBadge
-        {
-            title: "Pikachu",
-            choices: ["Pikachu", "Charmander", "Bulbasaur", "Squirtle"],
-            answer: "Pikachu"
-        },
-        {
-            title: "Voltorb",
-            choices: ["Electrode", "Gastly", "Voltorb", "Gengar"],
-            answer: "Voltorb"
-        },
-        {
-            title: "Magnamite",
-            choices: ["Magnamite", "Abra", "Raichu", "Ekans"],
-            answer: "Guarydos"
-        },
-        {
-            title: "Electrode",
-            choices: ["Psyduck", "Vaporeon", "Slowpoke", "Electrode"],
-            answer: "Electrode"
-        },
-        {
-            title: "Raichu",
-            choices: ["Pikachu", "Raichu", "Electrabuzz", "Golbat"],
-            answer: "Cubone"
-        },
-
-    ],
-
-    [
-        // Quiz4 Rainbow Badge
-        {
-            title: "Bellsprout",
-            choices: ["Oddish", "Bellsprout", "Bulbasaur", "Exeggcute"],
-            answer: "Bellsprout"
-        },
-        {
-            title: "Baulbasaur",
-            choices: ["Ivysaur", "Metapod", "Venasaur", "Bulbasaur"],
-            answer: "Bulbasaur"
-        },
-        {
-            title: "Ivysaur",
-            choices: ["Ivysaur", "Metapod", "Venasaur", "Bulbasaur"],
-            answer: "Ivysaur"
-        },
-        {
-            title: "Exeggcute",
-            choices: ["Oddish", "Bellsprout", "Bulbasaur", "Exeggcute"],
-            answer: "Exeggcute"
-        },
-        {
-            title: "Gloom",
-            choices: ["Gloom", "Weepingbell", "Oddish", "Venasaur"],
-            answer: "Gloom"
-        },
-
-    ],
-
-    [
-        // Quiz5 Soul Badge
-        {
-            title: "Koffing",
-            choices: ["Koffing", "Muk", "Wheezing", "Hypno"],
-            answer: "Koffing"
-        },
-        {
-            title: "Arbok",
-            choices: ["Koffing", "Drowzee", "Arbok", "Muk"],
-            answer: "Arbok"
-        },
-        {
-            title: "Muk",
-            choices: ["Wheezing", "Muk", "Arbok", "Koffing"],
-            answer: "Muk"
-        },
-        {
-            title: "Hypno",
-            choices: ["Koffing", "Muk", "Wheezing", "Hypno"],
-            answer: "Hypno"
-        },
-        {
-            title: "Weezing",
-            choices: ["Muk", "Koffing", "Hypno", "Kadabra"],
-            answer: "Gloom"
-        },
-
-    ],
     
     [
         // Quiz6 Marsh Badge
@@ -227,7 +110,6 @@ var badges = [
     {
     name: "Boulder Badge",
     quiz: [
-        // Quiz1 Boulder Badge
         {
             title: "Digglet",
             choices: ["Geodude", "Digglet", "Hypno", "Onix"],
@@ -265,5 +147,163 @@ var badges = [
 },
 
 
+{
+    name: "Cascade Badge",
+    quiz: [
+        {
+            title: "Goldeen",
+            choices: ["Goldeen", "Starmie", "Shellder", "Horsea"],
+            answer: "Goldeen"
+        },
+        {
+            title: "Staryu",
+            choices: ["Shellder", "Staryu", "Starmie", "Horsea"],
+            answer: "Staryu"
+        },
+        {
+            title: "Shellder",
+            choices: ["Horsea", "Goldeen", "Shellder", "Staryu"],
+            answer: "Shellder"
+        },
+        {
+            title: "Horsea",
+            choices: ["Staryu", "Starmie", "Horsea", "Goldeen"],
+            answer: "Horsea"
+        },
+        {
+            title: "Starmie",
+            choices: ["Staryu", "Goldeen", "Starmie", "Shellder"],
+            answer: "Starmie"
+        },
+
+    ],
+    image_file: "example.jpg",
+    points: 300,
+    message: "Congratulations on earning your Cascade Badge! You have also earned 300 xP to help in your quest to become a pokemon master!",
+    gym: "Cerulean City",
+    gym_leader: "Misty",
+    passcode: "CeruleanCity002",
+    passed: false
+},
+
+{
+    name: "Thunder Badge",
+    quiz:  [
+        {
+            title: "Pikachu",
+            choices: ["Pikachu", "Magnamite", "Electrode", "Voltorb"],
+            answer: "Pikachu"
+        },
+        {
+            title: "Voltorb",
+            choices: ["Electrode", "Pikachu", "Voltorb", "Magnamite"],
+            answer: "Voltorb"
+        },
+        {
+            title: "Magnamite",
+            choices: ["Magnamite", "Pikachu", "Raichu", "Electrode"],
+            answer: "Magnamite"
+        },
+        {
+            title: "Electrode",
+            choices: ["Pikachu", "Voltorb", "Raichu", "Electrode"],
+            answer: "Electrode"
+        },
+        {
+            title: "Raichu",
+            choices: ["Pikachu", "Raichu", "Voltorb", "Magnamite"],
+            answer: "Raichu"
+        },
+
+    ],
+    image_file: "example.jpg",
+    points: 300,
+    message: "Congratulations on earning your Thunder Badge! You have also earned 300 xP to help in your quest to become a pokemon master!",
+    gym: "Vermillion City",
+    gym_leader: "Lt. Surge",
+    passcode: "VermillionCity003",
+    passed: false
+},
+
+
+{
+    name: "Rainbow Badge",
+    quiz: [
+        {
+            title: "Bellsprout",
+            choices: ["Oddish", "Bellsprout", "Bulbasaur", "Exeggcute"],
+            answer: "Bellsprout"
+        },
+        {
+            title: "Baulbasaur",
+            choices: ["Ivysaur", "Metapod", "Venasaur", "Bulbasaur"],
+            answer: "Bulbasaur"
+        },
+        {
+            title: "Ivysaur",
+            choices: ["Ivysaur", "Metapod", "Venasaur", "Bulbasaur"],
+            answer: "Ivysaur"
+        },
+        {
+            title: "Exeggcute",
+            choices: ["Oddish", "Bellsprout", "Bulbasaur", "Exeggcute"],
+            answer: "Exeggcute"
+        },
+        {
+            title: "Gloom",
+            choices: ["Gloom", "Weepingbell", "Oddish", "Venasaur"],
+            answer: "Gloom"
+        },
+
+    ],
+    image_file: "example.jpg",
+    points: 500,
+    message: "Congratulations on earning your Rainbow Badge! You have also earned 500 xP to help in your quest to become a pokemon master!",
+    gym: "Celadon City",
+    gym_leader: "Erika",
+    passcode: "CeladonCity004",
+    passed: false
+},
+
+
+{
+    name: "Soul Badge",
+    quiz: [
+
+        {
+            title: "Koffing",
+            choices: ["Koffing", "Muk", "Wheezing", "Hypno"],
+            answer: "Koffing"
+        },
+        {
+            title: "Arbok",
+            choices: ["Koffing", "Drowzee", "Arbok", "Muk"],
+            answer: "Arbok"
+        },
+        {
+            title: "Muk",
+            choices: ["Wheezing", "Muk", "Arbok", "Koffing"],
+            answer: "Muk"
+        },
+        {
+            title: "Hypno",
+            choices: ["Koffing", "Muk", "Wheezing", "Hypno"],
+            answer: "Hypno"
+        },
+        {
+            title: "Weezing",
+            choices: ["Muk", "Koffing", "Hypno", "Kadabra"],
+            answer: "Gloom"
+        },
+
+    ],
+    image_file: "example.jpg",
+    points: 500,
+    message: "Congratulations on earning your Soul Badge! You have also earned 500 xP to help in your quest to become a pokemon master!",
+    gym: "Fuchsia City",
+    gym_leader: "Koga",
+    passcode: "FuchsiaCity005",
+    passed: false
+},
 
 ]
