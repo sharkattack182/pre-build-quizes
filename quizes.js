@@ -32,29 +32,29 @@ var quizes = [
     [
         // Quiz2 Cascade Badge
         {
-            title: "Squirtle",
-            choices: ["Pikachu", "Charmander", "Bulbasaur", "Squirtle"],
-            answer: "Squirtle"
+            title: "Goldeen",
+            choices: ["Goldeen", "Starmie", "Shellder", "Horsea"],
+            answer: "Goldeen"
         },
         {
-            title: "Magikarp",
-            choices: ["Lapras", "Psyduck", "Vaporeon", "Magikarp"],
-            answer: "Magikarp"
+            title: "Staryu",
+            choices: ["Shellder", "Staryu", "Starmie", "Horsea"],
+            answer: "Staryu"
         },
         {
-            title: "Guarydos",
-            choices: ["Caterpie", "Onyx", "Guarydos", "Dratini"],
-            answer: "Guarydos"
+            title: "Shellder",
+            choices: ["Horsea", "Goldeen", "Shellder", "Staryu"],
+            answer: "Shellder"
         },
         {
-            title: "Psyduck",
-            choices: ["Psyduck", "Vaporeon", "Slowpoke", "Golem"],
-            answer: "Onix"
+            title: "Horsea",
+            choices: ["Staryu", "Starmie", "Horsea", "Goldeen"],
+            answer: "Horsea"
         },
         {
-            title: "Tentacool",
-            choices: ["Weepinbell", "Tentacool", "Dewgong", "Krabby"],
-            answer: "Cubone"
+            title: "Starmie",
+            choices: ["Staryu", "Goldeen", "Starmie", "Shellder"],
+            answer: "Starmie"
         },
 
     ],
