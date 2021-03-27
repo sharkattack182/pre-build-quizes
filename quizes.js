@@ -118,6 +118,37 @@ var quizes = [
         },
 
     ],
+
+    [
+        // Quiz5 Soul Badge
+        {
+            title: "Koffing",
+            choices: ["Koffing", "Muk", "Wheezing", "Hypno"],
+            answer: "Koffing"
+        },
+        {
+            title: "Arbok",
+            choices: ["Koffing", "Drowzee", "Arbok", "Muk"],
+            answer: "Arbok"
+        },
+        {
+            title: "Muk",
+            choices: ["Wheezing", "Muk", "Arbok", "Koffing"],
+            answer: "Muk"
+        },
+        {
+            title: "Hypno",
+            choices: ["Koffing", "Muk", "Wheezing", "Hypno"],
+            answer: "Hypno"
+        },
+        {
+            title: "Weezing",
+            choices: ["Muk", "Koffing", "Hypno", "Kadabra"],
+            answer: "Gloom"
+        },
+
+    ],
+    
     
 
 ]
