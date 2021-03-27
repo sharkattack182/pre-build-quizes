@@ -4,27 +4,27 @@ var quizes = [
         // Quiz1 Boulder Badge
         {
             title: "Digglet",
-            choices: ["Voltorb", "Digglet", "Hypno", "Tauros"],
-            answer: "Digglett"
+            choices: ["Geodude", "Digglet", "Hypno", "Onix"],
+            answer: "Digglet"
         },
         {
             title: "Sandshrew",
-            choices: ["Cubone", "Nidoran", "Sandshrew", "Oddish"],
-            answer: "Magikarp"
+            choices: ["Cubone", "Digglet", "Sandshrew", "Geodude"],
+            answer: "Sandshrew"
         },
         {
             title: "Geodude",
-            choices: ["Graveler", "Slowbro", "Magneton", "Geodude"],
+            choices: ["Digglet", "Slowbro", "Sandshrew", "Geodude"],
             answer: "Geodude"
         },
         {
             title: "Onix",
-            choices: ["Caterpie", "Onix", "Guarydos", "Dratini"],
+            choices: ["Sandshrew", "Onix", "Geodude", "Digglet"],
             answer: "Onix"
         },
         {
             title: "Cubone",
-            choices: ["Cubone", "Marowak", "Hitmonchan", "Koffing"],
+            choices: ["Cubone", "Digglet", "Sandshrew", "Geodude"],
             answer: "Cubone"
         },
 
