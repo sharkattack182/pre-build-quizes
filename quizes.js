@@ -5,30 +5,49 @@ var badges = [
     quiz: [
         {
             title: "Digglet",
-            choices: ["Geodude", "Digglet", "Hypno", "Onix"],
-            answer: "Digglet"
-        },
-        {
+            choices: [
+                {text: "Geodude", correct: false},
+                {text: "Digglet", correct: true},
+                {text: "Hypno", correct: false},
+                {text: "Onix", correct: false}
+            ]
+          },
+          {
             title: "Sandshrew",
-            choices: ["Cubone", "Digglet", "Sandshrew", "Geodude"],
-            answer: "Sandshrew"
-        },
-        {
+            choices: [
+                {text: "Cubone", correct: false},
+                {text: "Digglet", correct: false},
+                {text: "Sandshrew", correct: true},
+                {text: "Geodude", correct: false}
+            ]
+          },
+          {
             title: "Geodude",
-            choices: ["Digglet", "Slowbro", "Sandshrew", "Geodude"],
-            answer: "Geodude"
-        },
-        {
+            choices: [
+                {text: "Digglet", correct: false},
+                {text: "Slowbro", correct: false},
+                {text: "Sandshrew", correct: false},
+                {text: "Geodude", correct: true}
+            ]
+          },
+          {
             title: "Onix",
-            choices: ["Sandshrew", "Onix", "Geodude", "Digglet"],
-            answer: "Onix"
-        },
-        {
+            choices: [
+                {text: "Digglet", correct: false},
+                {text: "Onix", correct: true},
+                {text: "Sandshrew", correct: false},
+                {text: "Geodude", correct: false}
+            ]
+          },
+          {
             title: "Cubone",
-            choices: ["Cubone", "Digglet", "Sandshrew", "Geodude"],
-            answer: "Cubone"
-        },
-
+            choices: [
+                {text: "Cubone", correct: true},
+                {text: "Digglet", correct: false},
+                {text: "Sandshrew", correct: false},
+                {text: "Geodude", correct: false}
+            ]
+          },
     ],
     image_file: "example.jpg",
     points: 300,
@@ -324,11 +343,3 @@ var badges = [
 ]
 
 
-function getGymName(obj) {
-    for (let i = 0; i < obj.length; i++) {
-        const element = obj[i];
-        console.log(element.gym_leader)
-    }
-}
-
-getGymName(badges)
